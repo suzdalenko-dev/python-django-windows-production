@@ -1,0 +1,27 @@
+[Thu Sep 19 13:40:34.885396 2024] [mpm_winnt:notice] [pid 2036:tid 348] AH00455: Apache/2.4.62 (Win64) mod_wsgi/5.0.0 Python/3.12 configured -- resuming normal operations
+[Thu Sep 19 13:40:34.885396 2024] [mpm_winnt:notice] [pid 2036:tid 348] AH00456: Apache Lounge VS17 Server built: Sep  4 2024 10:31:52
+[Thu Sep 19 13:40:34.885396 2024] [core:notice] [pid 2036:tid 348] AH00094: Command line: 'httpd.exe -d C:/Apache24'
+[Thu Sep 19 13:40:34.895905 2024] [mpm_winnt:notice] [pid 2036:tid 348] AH00418: Parent: Created child process 3692
+Apache server interrupted...
+024] [mpm_winnt:notice] [pid 3692:tid 348] AH00354: Child: Starting 64 worker threads.
+[Thu Sep 19 13:41:32.285589 2024] [mpm_winnt:notice] [pid 2036:tid 348] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+Apache server interrupted...
+Apache server interrupted...
+Apache server interrupted...
+Apache server interrupted...
+Apache server shutdown initiated...
+rker threads have exited.
+[Thu Sep 19 13:41:54.851884 2024] [core:warn] [pid 10700:tid 348] AH00098: pid file C:/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu Sep 19 13:41:54.858394 2024] [mpm_winnt:notice] [pid 10700:tid 348] AH00455: Apache/2.4.62 (Win64) mod_wsgi/5.0.0 Python/3.12 configured -- resuming normal operations
+[Thu Sep 19 13:41:54.858394 2024] [mpm_winnt:notice] [pid 10700:tid 348] AH00456: Apache Lounge VS17 Server built: Sep  4 2024 10:31:52
+[Thu Sep 19 13:41:54.858394 2024] [core:notice] [pid 10700:tid 348] AH00094: Command line: 'httpd.exe -d C:/Apache24'
+[Thu Sep 19 13:41:54.858394 2024] [mpm_winnt:notice] [pid 10700:tid 348] AH00418: Parent: Created child process 6024
+Apache server shutdown initiated...
+pm_winnt:notice] [pid 6024:tid 344] AH00354: Child: Starting 64 worker threads.
+[Thu Sep 19 13:51:32.906910 2024] [mpm_winnt:notice] [pid 10700:tid 348] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Sep 19 13:51:34.925927 2024] [mpm_winnt:notice] [pid 6024:tid 344] AH00364: Child: All worker threads have exited.
+[Thu Sep 19 13:51:42.582946 2024] [core:warn] [pid 9812:tid 348] AH00098: pid file C:/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu Sep 19 13:51:42.585987 2024] [mpm_winnt:notice] [pid 9812:tid 348] AH00455: Apache/2.4.62 (Win64) mod_wsgi/5.0.0 Python/3.12 configured -- resuming normal operations
+[Thu Sep 19 13:51:42.585987 2024] [mpm_winnt:notice] [pid 9812:tid 348] AH00456: Apache Lounge VS17 Server built: Sep  4 2024 10:31:52
+[Thu Sep 19 13:51:42.585987 2024] [core:notice] [pid 9812:tid 348] AH00094: Command line: 'httpd.exe -d C:/Apache24'
+[Thu Sep 19 13:51:42.590196 2024] [mpm_winnt:notice] [pid 9812:tid 348] AH00418: Parent: Created child process 6188

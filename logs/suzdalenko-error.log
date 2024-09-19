@@ -1,0 +1,694 @@
+[Thu Sep 19 13:40:44.848116 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50643] Invalid HTTP_HOST header: 'localhost'. You may need to add 'localhost' to ALLOWED_HOSTS.\r
+[Thu Sep 19 13:40:44.848116 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50643] Traceback (most recent call last):\r
+[Thu Sep 19 13:40:44.848116 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50643]   File "C:\\Python312\\Lib\\site-packages\\django\\core\\handlers\\exception.py", line 55, in inner\r
+[Thu Sep 19 13:40:44.848116 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50643]     response = get_response(request)\r
+[Thu Sep 19 13:40:44.848116 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50643]                ^^^^^^^^^^^^^^^^^^^^^\r
+[Thu Sep 19 13:40:44.848116 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50643]   File "C:\\Python312\\Lib\\site-packages\\django\\utils\\deprecation.py", line 133, in __call__\r
+[Thu Sep 19 13:40:44.848116 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50643]     response = self.process_request(request)\r
+[Thu Sep 19 13:40:44.848116 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50643]                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r
+[Thu Sep 19 13:40:44.848116 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50643]   File "C:\\Python312\\Lib\\site-packages\\django\\middleware\\common.py", line 48, in process_request\r
+[Thu Sep 19 13:40:44.848116 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50643]     host = request.get_host()\r
+[Thu Sep 19 13:40:44.848116 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50643]            ^^^^^^^^^^^^^^^^^^\r
+[Thu Sep 19 13:40:44.848116 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50643]   File "C:\\Python312\\Lib\\site-packages\\django\\http\\request.py", line 151, in get_host\r
+[Thu Sep 19 13:40:44.848116 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50643]     raise DisallowedHost(msg)\r
+[Thu Sep 19 13:40:44.848116 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50643] django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'localhost'. You may need to add 'localhost' to ALLOWED_HOSTS.\r
+[Thu Sep 19 13:40:46.380604 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50643] Bad Request: /back/\r
+[Thu Sep 19 13:40:53.957741 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50645] Invalid HTTP_HOST header: 'localhost'. You may need to add 'localhost' to ALLOWED_HOSTS.\r
+[Thu Sep 19 13:40:53.957741 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50645] Traceback (most recent call last):\r
+[Thu Sep 19 13:40:53.957741 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50645]   File "C:\\Python312\\Lib\\site-packages\\django\\core\\handlers\\exception.py", line 55, in inner\r
+[Thu Sep 19 13:40:53.957741 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50645]     response = get_response(request)\r
+[Thu Sep 19 13:40:53.957741 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50645]                ^^^^^^^^^^^^^^^^^^^^^\r
+[Thu Sep 19 13:40:53.957741 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50645]   File "C:\\Python312\\Lib\\site-packages\\django\\utils\\deprecation.py", line 133, in __call__\r
+[Thu Sep 19 13:40:53.957741 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50645]     response = self.process_request(request)\r
+[Thu Sep 19 13:40:53.957741 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50645]                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r
+[Thu Sep 19 13:40:53.957741 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50645]   File "C:\\Python312\\Lib\\site-packages\\django\\middleware\\common.py", line 48, in process_request\r
+[Thu Sep 19 13:40:53.957741 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50645]     host = request.get_host()\r
+[Thu Sep 19 13:40:53.957741 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50645]            ^^^^^^^^^^^^^^^^^^\r
+[Thu Sep 19 13:40:53.957741 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50645]   File "C:\\Python312\\Lib\\site-packages\\django\\http\\request.py", line 151, in get_host\r
+[Thu Sep 19 13:40:53.957741 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50645]     raise DisallowedHost(msg)\r
+[Thu Sep 19 13:40:53.957741 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50645] django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'localhost'. You may need to add 'localhost' to ALLOWED_HOSTS.\r
+[Thu Sep 19 13:40:53.974630 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50645] Bad Request: /back/\r
+[Thu Sep 19 13:40:54.578611 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50646] Invalid HTTP_HOST header: 'localhost'. You may need to add 'localhost' to ALLOWED_HOSTS.\r
+[Thu Sep 19 13:40:54.578611 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50646] Traceback (most recent call last):\r
+[Thu Sep 19 13:40:54.578611 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50646]   File "C:\\Python312\\Lib\\site-packages\\django\\core\\handlers\\exception.py", line 55, in inner\r
+[Thu Sep 19 13:40:54.578611 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50646]     response = get_response(request)\r
+[Thu Sep 19 13:40:54.578611 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50646]                ^^^^^^^^^^^^^^^^^^^^^\r
+[Thu Sep 19 13:40:54.578611 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50646]   File "C:\\Python312\\Lib\\site-packages\\django\\utils\\deprecation.py", line 133, in __call__\r
+[Thu Sep 19 13:40:54.578611 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50646]     response = self.process_request(request)\r
+[Thu Sep 19 13:40:54.578611 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50646]                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r
+[Thu Sep 19 13:40:54.578611 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50646]   File "C:\\Python312\\Lib\\site-packages\\django\\middleware\\common.py", line 48, in process_request\r
+[Thu Sep 19 13:40:54.578611 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50646]     host = request.get_host()\r
+[Thu Sep 19 13:40:54.578611 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50646]            ^^^^^^^^^^^^^^^^^^\r
+[Thu Sep 19 13:40:54.578611 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50646]   File "C:\\Python312\\Lib\\site-packages\\django\\http\\request.py", line 151, in get_host\r
+[Thu Sep 19 13:40:54.578611 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50646]     raise DisallowedHost(msg)\r
+[Thu Sep 19 13:40:54.578611 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50646] django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'localhost'. You may need to add 'localhost' to ALLOWED_HOSTS.\r
+[Thu Sep 19 13:40:54.594497 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50646] Bad Request: /back/\r
+[Thu Sep 19 13:40:55.018713 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50647] Invalid HTTP_HOST header: 'localhost'. You may need to add 'localhost' to ALLOWED_HOSTS.\r
+[Thu Sep 19 13:40:55.018713 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50647] Traceback (most recent call last):\r
+[Thu Sep 19 13:40:55.018713 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50647]   File "C:\\Python312\\Lib\\site-packages\\django\\core\\handlers\\exception.py", line 55, in inner\r
+[Thu Sep 19 13:40:55.018713 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50647]     response = get_response(request)\r
+[Thu Sep 19 13:40:55.018713 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50647]                ^^^^^^^^^^^^^^^^^^^^^\r
+[Thu Sep 19 13:40:55.018713 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50647]   File "C:\\Python312\\Lib\\site-packages\\django\\utils\\deprecation.py", line 133, in __call__\r
+[Thu Sep 19 13:40:55.018713 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50647]     response = self.process_request(request)\r
+[Thu Sep 19 13:40:55.018713 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50647]                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r
+[Thu Sep 19 13:40:55.018713 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50647]   File "C:\\Python312\\Lib\\site-packages\\django\\middleware\\common.py", line 48, in process_request\r
+[Thu Sep 19 13:40:55.018713 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50647]     host = request.get_host()\r
+[Thu Sep 19 13:40:55.018713 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50647]            ^^^^^^^^^^^^^^^^^^\r
+[Thu Sep 19 13:40:55.018713 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50647]   File "C:\\Python312\\Lib\\site-packages\\django\\http\\request.py", line 151, in get_host\r
+[Thu Sep 19 13:40:55.018713 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50647]     raise DisallowedHost(msg)\r
+[Thu Sep 19 13:40:55.018713 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50647] django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'localhost'. You may need to add 'localhost' to ALLOWED_HOSTS.\r
+[Thu Sep 19 13:40:55.034282 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50647] Bad Request: /back/\r
+[Thu Sep 19 13:40:55.217823 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50648] Invalid HTTP_HOST header: 'localhost'. You may need to add 'localhost' to ALLOWED_HOSTS.\r
+[Thu Sep 19 13:40:55.217823 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50648] Traceback (most recent call last):\r
+[Thu Sep 19 13:40:55.217823 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50648]   File "C:\\Python312\\Lib\\site-packages\\django\\core\\handlers\\exception.py", line 55, in inner\r
+[Thu Sep 19 13:40:55.217823 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50648]     response = get_response(request)\r
+[Thu Sep 19 13:40:55.217823 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50648]                ^^^^^^^^^^^^^^^^^^^^^\r
+[Thu Sep 19 13:40:55.217823 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50648]   File "C:\\Python312\\Lib\\site-packages\\django\\utils\\deprecation.py", line 133, in __call__\r
+[Thu Sep 19 13:40:55.217823 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50648]     response = self.process_request(request)\r
+[Thu Sep 19 13:40:55.218825 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50648]                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r
+[Thu Sep 19 13:40:55.218825 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50648]   File "C:\\Python312\\Lib\\site-packages\\django\\middleware\\common.py", line 48, in process_request\r
+[Thu Sep 19 13:40:55.218825 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50648]     host = request.get_host()\r
+[Thu Sep 19 13:40:55.218825 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50648]            ^^^^^^^^^^^^^^^^^^\r
+[Thu Sep 19 13:40:55.218825 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50648]   File "C:\\Python312\\Lib\\site-packages\\django\\http\\request.py", line 151, in get_host\r
+[Thu Sep 19 13:40:55.218825 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50648]     raise DisallowedHost(msg)\r
+[Thu Sep 19 13:40:55.218825 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50648] django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'localhost'. You may need to add 'localhost' to ALLOWED_HOSTS.\r
+[Thu Sep 19 13:40:55.235362 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50648] Bad Request: /back/\r
+[Thu Sep 19 13:40:55.426497 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50649] Invalid HTTP_HOST header: 'localhost'. You may need to add 'localhost' to ALLOWED_HOSTS.\r
+[Thu Sep 19 13:40:55.426497 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50649] Traceback (most recent call last):\r
+[Thu Sep 19 13:40:55.426497 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50649]   File "C:\\Python312\\Lib\\site-packages\\django\\core\\handlers\\exception.py", line 55, in inner\r
+[Thu Sep 19 13:40:55.426497 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50649]     response = get_response(request)\r
+[Thu Sep 19 13:40:55.426497 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50649]                ^^^^^^^^^^^^^^^^^^^^^\r
+[Thu Sep 19 13:40:55.426497 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50649]   File "C:\\Python312\\Lib\\site-packages\\django\\utils\\deprecation.py", line 133, in __call__\r
+[Thu Sep 19 13:40:55.426497 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50649]     response = self.process_request(request)\r
+[Thu Sep 19 13:40:55.426497 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50649]                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r
+[Thu Sep 19 13:40:55.426497 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50649]   File "C:\\Python312\\Lib\\site-packages\\django\\middleware\\common.py", line 48, in process_request\r
+[Thu Sep 19 13:40:55.426497 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50649]     host = request.get_host()\r
+[Thu Sep 19 13:40:55.426497 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50649]            ^^^^^^^^^^^^^^^^^^\r
+[Thu Sep 19 13:40:55.426497 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50649]   File "C:\\Python312\\Lib\\site-packages\\django\\http\\request.py", line 151, in get_host\r
+[Thu Sep 19 13:40:55.426497 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50649]     raise DisallowedHost(msg)\r
+[Thu Sep 19 13:40:55.426497 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50649] django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'localhost'. You may need to add 'localhost' to ALLOWED_HOSTS.\r
+[Thu Sep 19 13:40:55.466388 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50649] Bad Request: /back/\r
+[Thu Sep 19 13:40:55.627020 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50650] Invalid HTTP_HOST header: 'localhost'. You may need to add 'localhost' to ALLOWED_HOSTS.\r
+[Thu Sep 19 13:40:55.627020 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50650] Traceback (most recent call last):\r
+[Thu Sep 19 13:40:55.627020 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50650]   File "C:\\Python312\\Lib\\site-packages\\django\\core\\handlers\\exception.py", line 55, in inner\r
+[Thu Sep 19 13:40:55.627020 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50650]     response = get_response(request)\r
+[Thu Sep 19 13:40:55.627020 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50650]                ^^^^^^^^^^^^^^^^^^^^^\r
+[Thu Sep 19 13:40:55.627020 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50650]   File "C:\\Python312\\Lib\\site-packages\\django\\utils\\deprecation.py", line 133, in __call__\r
+[Thu Sep 19 13:40:55.627020 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50650]     response = self.process_request(request)\r
+[Thu Sep 19 13:40:55.627020 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50650]                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r
+[Thu Sep 19 13:40:55.627020 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50650]   File "C:\\Python312\\Lib\\site-packages\\django\\middleware\\common.py", line 48, in process_request\r
+[Thu Sep 19 13:40:55.627020 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50650]     host = request.get_host()\r
+[Thu Sep 19 13:40:55.627020 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50650]            ^^^^^^^^^^^^^^^^^^\r
+[Thu Sep 19 13:40:55.627020 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50650]   File "C:\\Python312\\Lib\\site-packages\\django\\http\\request.py", line 151, in get_host\r
+[Thu Sep 19 13:40:55.627020 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50650]     raise DisallowedHost(msg)\r
+[Thu Sep 19 13:40:55.627020 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50650] django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'localhost'. You may need to add 'localhost' to ALLOWED_HOSTS.\r
+[Thu Sep 19 13:40:55.642965 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50650] Bad Request: /back/\r
+[Thu Sep 19 13:40:55.810844 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50651] Invalid HTTP_HOST header: 'localhost'. You may need to add 'localhost' to ALLOWED_HOSTS.\r
+[Thu Sep 19 13:40:55.810844 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50651] Traceback (most recent call last):\r
+[Thu Sep 19 13:40:55.810844 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50651]   File "C:\\Python312\\Lib\\site-packages\\django\\core\\handlers\\exception.py", line 55, in inner\r
+[Thu Sep 19 13:40:55.810844 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50651]     response = get_response(request)\r
+[Thu Sep 19 13:40:55.810844 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50651]                ^^^^^^^^^^^^^^^^^^^^^\r
+[Thu Sep 19 13:40:55.810844 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50651]   File "C:\\Python312\\Lib\\site-packages\\django\\utils\\deprecation.py", line 133, in __call__\r
+[Thu Sep 19 13:40:55.810844 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50651]     response = self.process_request(request)\r
+[Thu Sep 19 13:40:55.810844 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50651]                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r
+[Thu Sep 19 13:40:55.810844 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50651]   File "C:\\Python312\\Lib\\site-packages\\django\\middleware\\common.py", line 48, in process_request\r
+[Thu Sep 19 13:40:55.810844 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50651]     host = request.get_host()\r
+[Thu Sep 19 13:40:55.810844 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50651]            ^^^^^^^^^^^^^^^^^^\r
+[Thu Sep 19 13:40:55.810844 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50651]   File "C:\\Python312\\Lib\\site-packages\\django\\http\\request.py", line 151, in get_host\r
+[Thu Sep 19 13:40:55.810844 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50651]     raise DisallowedHost(msg)\r
+[Thu Sep 19 13:40:55.810844 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50651] django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'localhost'. You may need to add 'localhost' to ALLOWED_HOSTS.\r
+[Thu Sep 19 13:40:55.826707 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50651] Bad Request: /back/\r
+[Thu Sep 19 13:40:55.986770 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50652] Invalid HTTP_HOST header: 'localhost'. You may need to add 'localhost' to ALLOWED_HOSTS.\r
+[Thu Sep 19 13:40:55.986770 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50652] Traceback (most recent call last):\r
+[Thu Sep 19 13:40:55.986770 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50652]   File "C:\\Python312\\Lib\\site-packages\\django\\core\\handlers\\exception.py", line 55, in inner\r
+[Thu Sep 19 13:40:55.986770 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50652]     response = get_response(request)\r
+[Thu Sep 19 13:40:55.986770 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50652]                ^^^^^^^^^^^^^^^^^^^^^\r
+[Thu Sep 19 13:40:55.986770 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50652]   File "C:\\Python312\\Lib\\site-packages\\django\\utils\\deprecation.py", line 133, in __call__\r
+[Thu Sep 19 13:40:55.986770 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50652]     response = self.process_request(request)\r
+[Thu Sep 19 13:40:55.986770 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50652]                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r
+[Thu Sep 19 13:40:55.986770 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50652]   File "C:\\Python312\\Lib\\site-packages\\django\\middleware\\common.py", line 48, in process_request\r
+[Thu Sep 19 13:40:55.986770 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50652]     host = request.get_host()\r
+[Thu Sep 19 13:40:55.986770 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50652]            ^^^^^^^^^^^^^^^^^^\r
+[Thu Sep 19 13:40:55.986770 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50652]   File "C:\\Python312\\Lib\\site-packages\\django\\http\\request.py", line 151, in get_host\r
+[Thu Sep 19 13:40:55.986770 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50652]     raise DisallowedHost(msg)\r
+[Thu Sep 19 13:40:55.986770 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50652] django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'localhost'. You may need to add 'localhost' to ALLOWED_HOSTS.\r
+[Thu Sep 19 13:40:56.002369 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50652] Bad Request: /back/\r
+[Thu Sep 19 13:40:56.171715 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50653] Invalid HTTP_HOST header: 'localhost'. You may need to add 'localhost' to ALLOWED_HOSTS.\r
+[Thu Sep 19 13:40:56.171715 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50653] Traceback (most recent call last):\r
+[Thu Sep 19 13:40:56.171715 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50653]   File "C:\\Python312\\Lib\\site-packages\\django\\core\\handlers\\exception.py", line 55, in inner\r
+[Thu Sep 19 13:40:56.171715 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50653]     response = get_response(request)\r
+[Thu Sep 19 13:40:56.171715 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50653]                ^^^^^^^^^^^^^^^^^^^^^\r
+[Thu Sep 19 13:40:56.171715 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50653]   File "C:\\Python312\\Lib\\site-packages\\django\\utils\\deprecation.py", line 133, in __call__\r
+[Thu Sep 19 13:40:56.171715 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50653]     response = self.process_request(request)\r
+[Thu Sep 19 13:40:56.171715 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50653]                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r
+[Thu Sep 19 13:40:56.171715 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50653]   File "C:\\Python312\\Lib\\site-packages\\django\\middleware\\common.py", line 48, in process_request\r
+[Thu Sep 19 13:40:56.171715 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50653]     host = request.get_host()\r
+[Thu Sep 19 13:40:56.171715 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50653]            ^^^^^^^^^^^^^^^^^^\r
+[Thu Sep 19 13:40:56.171715 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50653]   File "C:\\Python312\\Lib\\site-packages\\django\\http\\request.py", line 151, in get_host\r
+[Thu Sep 19 13:40:56.171715 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50653]     raise DisallowedHost(msg)\r
+[Thu Sep 19 13:40:56.171715 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50653] django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'localhost'. You may need to add 'localhost' to ALLOWED_HOSTS.\r
+[Thu Sep 19 13:40:56.187733 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50653] Bad Request: /back/\r
+[Thu Sep 19 13:40:56.354848 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50654] Invalid HTTP_HOST header: 'localhost'. You may need to add 'localhost' to ALLOWED_HOSTS.\r
+[Thu Sep 19 13:40:56.354848 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50654] Traceback (most recent call last):\r
+[Thu Sep 19 13:40:56.354848 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50654]   File "C:\\Python312\\Lib\\site-packages\\django\\core\\handlers\\exception.py", line 55, in inner\r
+[Thu Sep 19 13:40:56.354848 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50654]     response = get_response(request)\r
+[Thu Sep 19 13:40:56.354848 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50654]                ^^^^^^^^^^^^^^^^^^^^^\r
+[Thu Sep 19 13:40:56.354848 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50654]   File "C:\\Python312\\Lib\\site-packages\\django\\utils\\deprecation.py", line 133, in __call__\r
+[Thu Sep 19 13:40:56.354848 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50654]     response = self.process_request(request)\r
+[Thu Sep 19 13:40:56.354848 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50654]                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r
+[Thu Sep 19 13:40:56.354848 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50654]   File "C:\\Python312\\Lib\\site-packages\\django\\middleware\\common.py", line 48, in process_request\r
+[Thu Sep 19 13:40:56.354848 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50654]     host = request.get_host()\r
+[Thu Sep 19 13:40:56.354848 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50654]            ^^^^^^^^^^^^^^^^^^\r
+[Thu Sep 19 13:40:56.354848 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50654]   File "C:\\Python312\\Lib\\site-packages\\django\\http\\request.py", line 151, in get_host\r
+[Thu Sep 19 13:40:56.354848 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50654]     raise DisallowedHost(msg)\r
+[Thu Sep 19 13:40:56.354848 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50654] django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'localhost'. You may need to add 'localhost' to ALLOWED_HOSTS.\r
+[Thu Sep 19 13:40:56.371908 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50654] Bad Request: /back/\r
+[Thu Sep 19 13:41:03.522844 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50655] Invalid HTTP_HOST header: 'localhost'. You may need to add 'localhost' to ALLOWED_HOSTS.\r
+[Thu Sep 19 13:41:03.522844 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50655] Traceback (most recent call last):\r
+[Thu Sep 19 13:41:03.522844 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50655]   File "C:\\Python312\\Lib\\site-packages\\django\\core\\handlers\\exception.py", line 55, in inner\r
+[Thu Sep 19 13:41:03.522844 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50655]     response = get_response(request)\r
+[Thu Sep 19 13:41:03.522844 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50655]                ^^^^^^^^^^^^^^^^^^^^^\r
+[Thu Sep 19 13:41:03.522844 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50655]   File "C:\\Python312\\Lib\\site-packages\\django\\utils\\deprecation.py", line 133, in __call__\r
+[Thu Sep 19 13:41:03.522844 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50655]     response = self.process_request(request)\r
+[Thu Sep 19 13:41:03.522844 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50655]                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r
+[Thu Sep 19 13:41:03.522844 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50655]   File "C:\\Python312\\Lib\\site-packages\\django\\middleware\\common.py", line 48, in process_request\r
+[Thu Sep 19 13:41:03.522844 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50655]     host = request.get_host()\r
+[Thu Sep 19 13:41:03.522844 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50655]            ^^^^^^^^^^^^^^^^^^\r
+[Thu Sep 19 13:41:03.522844 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50655]   File "C:\\Python312\\Lib\\site-packages\\django\\http\\request.py", line 151, in get_host\r
+[Thu Sep 19 13:41:03.522844 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50655]     raise DisallowedHost(msg)\r
+[Thu Sep 19 13:41:03.522844 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50655] django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'localhost'. You may need to add 'localhost' to ALLOWED_HOSTS.\r
+[Thu Sep 19 13:41:03.538905 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50655] Bad Request: /back/\r
+[Thu Sep 19 13:41:04.074587 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50656] Invalid HTTP_HOST header: 'localhost'. You may need to add 'localhost' to ALLOWED_HOSTS.\r
+[Thu Sep 19 13:41:04.074587 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50656] Traceback (most recent call last):\r
+[Thu Sep 19 13:41:04.074587 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50656]   File "C:\\Python312\\Lib\\site-packages\\django\\core\\handlers\\exception.py", line 55, in inner\r
+[Thu Sep 19 13:41:04.074587 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50656]     response = get_response(request)\r
+[Thu Sep 19 13:41:04.074587 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50656]                ^^^^^^^^^^^^^^^^^^^^^\r
+[Thu Sep 19 13:41:04.074587 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50656]   File "C:\\Python312\\Lib\\site-packages\\django\\utils\\deprecation.py", line 133, in __call__\r
+[Thu Sep 19 13:41:04.074587 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50656]     response = self.process_request(request)\r
+[Thu Sep 19 13:41:04.074587 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50656]                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r
+[Thu Sep 19 13:41:04.074587 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50656]   File "C:\\Python312\\Lib\\site-packages\\django\\middleware\\common.py", line 48, in process_request\r
+[Thu Sep 19 13:41:04.074587 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50656]     host = request.get_host()\r
+[Thu Sep 19 13:41:04.074587 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50656]            ^^^^^^^^^^^^^^^^^^\r
+[Thu Sep 19 13:41:04.074587 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50656]   File "C:\\Python312\\Lib\\site-packages\\django\\http\\request.py", line 151, in get_host\r
+[Thu Sep 19 13:41:04.074587 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50656]     raise DisallowedHost(msg)\r
+[Thu Sep 19 13:41:04.074587 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50656] django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'localhost'. You may need to add 'localhost' to ALLOWED_HOSTS.\r
+[Thu Sep 19 13:41:04.091086 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50656] Bad Request: /back/\r
+[Thu Sep 19 13:41:04.394675 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50657] Invalid HTTP_HOST header: 'localhost'. You may need to add 'localhost' to ALLOWED_HOSTS.\r
+[Thu Sep 19 13:41:04.394675 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50657] Traceback (most recent call last):\r
+[Thu Sep 19 13:41:04.394675 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50657]   File "C:\\Python312\\Lib\\site-packages\\django\\core\\handlers\\exception.py", line 55, in inner\r
+[Thu Sep 19 13:41:04.394675 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50657]     response = get_response(request)\r
+[Thu Sep 19 13:41:04.394675 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50657]                ^^^^^^^^^^^^^^^^^^^^^\r
+[Thu Sep 19 13:41:04.394675 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50657]   File "C:\\Python312\\Lib\\site-packages\\django\\utils\\deprecation.py", line 133, in __call__\r
+[Thu Sep 19 13:41:04.394675 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50657]     response = self.process_request(request)\r
+[Thu Sep 19 13:41:04.394675 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50657]                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r
+[Thu Sep 19 13:41:04.394675 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50657]   File "C:\\Python312\\Lib\\site-packages\\django\\middleware\\common.py", line 48, in process_request\r
+[Thu Sep 19 13:41:04.394675 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50657]     host = request.get_host()\r
+[Thu Sep 19 13:41:04.394675 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50657]            ^^^^^^^^^^^^^^^^^^\r
+[Thu Sep 19 13:41:04.394675 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50657]   File "C:\\Python312\\Lib\\site-packages\\django\\http\\request.py", line 151, in get_host\r
+[Thu Sep 19 13:41:04.394675 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50657]     raise DisallowedHost(msg)\r
+[Thu Sep 19 13:41:04.394675 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50657] django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'localhost'. You may need to add 'localhost' to ALLOWED_HOSTS.\r
+[Thu Sep 19 13:41:04.410545 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50657] Bad Request: /back/\r
+[Thu Sep 19 13:41:04.602049 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50658] Invalid HTTP_HOST header: 'localhost'. You may need to add 'localhost' to ALLOWED_HOSTS.\r
+[Thu Sep 19 13:41:04.602049 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50658] Traceback (most recent call last):\r
+[Thu Sep 19 13:41:04.602049 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50658]   File "C:\\Python312\\Lib\\site-packages\\django\\core\\handlers\\exception.py", line 55, in inner\r
+[Thu Sep 19 13:41:04.602049 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50658]     response = get_response(request)\r
+[Thu Sep 19 13:41:04.602049 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50658]                ^^^^^^^^^^^^^^^^^^^^^\r
+[Thu Sep 19 13:41:04.602049 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50658]   File "C:\\Python312\\Lib\\site-packages\\django\\utils\\deprecation.py", line 133, in __call__\r
+[Thu Sep 19 13:41:04.602049 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50658]     response = self.process_request(request)\r
+[Thu Sep 19 13:41:04.603079 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50658]                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r
+[Thu Sep 19 13:41:04.603079 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50658]   File "C:\\Python312\\Lib\\site-packages\\django\\middleware\\common.py", line 48, in process_request\r
+[Thu Sep 19 13:41:04.603079 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50658]     host = request.get_host()\r
+[Thu Sep 19 13:41:04.603079 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50658]            ^^^^^^^^^^^^^^^^^^\r
+[Thu Sep 19 13:41:04.603079 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50658]   File "C:\\Python312\\Lib\\site-packages\\django\\http\\request.py", line 151, in get_host\r
+[Thu Sep 19 13:41:04.603079 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50658]     raise DisallowedHost(msg)\r
+[Thu Sep 19 13:41:04.603079 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50658] django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'localhost'. You may need to add 'localhost' to ALLOWED_HOSTS.\r
+[Thu Sep 19 13:41:04.619049 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50658] Bad Request: /back/\r
+[Thu Sep 19 13:41:04.785733 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50659] Invalid HTTP_HOST header: 'localhost'. You may need to add 'localhost' to ALLOWED_HOSTS.\r
+[Thu Sep 19 13:41:04.785733 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50659] Traceback (most recent call last):\r
+[Thu Sep 19 13:41:04.785733 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50659]   File "C:\\Python312\\Lib\\site-packages\\django\\core\\handlers\\exception.py", line 55, in inner\r
+[Thu Sep 19 13:41:04.785733 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50659]     response = get_response(request)\r
+[Thu Sep 19 13:41:04.785733 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50659]                ^^^^^^^^^^^^^^^^^^^^^\r
+[Thu Sep 19 13:41:04.785733 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50659]   File "C:\\Python312\\Lib\\site-packages\\django\\utils\\deprecation.py", line 133, in __call__\r
+[Thu Sep 19 13:41:04.785733 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50659]     response = self.process_request(request)\r
+[Thu Sep 19 13:41:04.785733 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50659]                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r
+[Thu Sep 19 13:41:04.785733 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50659]   File "C:\\Python312\\Lib\\site-packages\\django\\middleware\\common.py", line 48, in process_request\r
+[Thu Sep 19 13:41:04.785733 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50659]     host = request.get_host()\r
+[Thu Sep 19 13:41:04.785733 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50659]            ^^^^^^^^^^^^^^^^^^\r
+[Thu Sep 19 13:41:04.785733 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50659]   File "C:\\Python312\\Lib\\site-packages\\django\\http\\request.py", line 151, in get_host\r
+[Thu Sep 19 13:41:04.785733 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50659]     raise DisallowedHost(msg)\r
+[Thu Sep 19 13:41:04.785733 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50659] django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'localhost'. You may need to add 'localhost' to ALLOWED_HOSTS.\r
+[Thu Sep 19 13:41:04.803287 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50659] Bad Request: /back/\r
+[Thu Sep 19 13:41:04.978756 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50660] Invalid HTTP_HOST header: 'localhost'. You may need to add 'localhost' to ALLOWED_HOSTS.\r
+[Thu Sep 19 13:41:04.978756 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50660] Traceback (most recent call last):\r
+[Thu Sep 19 13:41:04.978756 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50660]   File "C:\\Python312\\Lib\\site-packages\\django\\core\\handlers\\exception.py", line 55, in inner\r
+[Thu Sep 19 13:41:04.978756 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50660]     response = get_response(request)\r
+[Thu Sep 19 13:41:04.978756 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50660]                ^^^^^^^^^^^^^^^^^^^^^\r
+[Thu Sep 19 13:41:04.978756 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50660]   File "C:\\Python312\\Lib\\site-packages\\django\\utils\\deprecation.py", line 133, in __call__\r
+[Thu Sep 19 13:41:04.978756 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50660]     response = self.process_request(request)\r
+[Thu Sep 19 13:41:04.978756 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50660]                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r
+[Thu Sep 19 13:41:04.978756 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50660]   File "C:\\Python312\\Lib\\site-packages\\django\\middleware\\common.py", line 48, in process_request\r
+[Thu Sep 19 13:41:04.978756 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50660]     host = request.get_host()\r
+[Thu Sep 19 13:41:04.978756 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50660]            ^^^^^^^^^^^^^^^^^^\r
+[Thu Sep 19 13:41:04.978756 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50660]   File "C:\\Python312\\Lib\\site-packages\\django\\http\\request.py", line 151, in get_host\r
+[Thu Sep 19 13:41:04.978756 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50660]     raise DisallowedHost(msg)\r
+[Thu Sep 19 13:41:04.978756 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50660] django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'localhost'. You may need to add 'localhost' to ALLOWED_HOSTS.\r
+[Thu Sep 19 13:41:04.994271 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50660] Bad Request: /back/\r
+[Thu Sep 19 13:41:05.163748 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50661] Invalid HTTP_HOST header: 'localhost'. You may need to add 'localhost' to ALLOWED_HOSTS.\r
+[Thu Sep 19 13:41:05.163748 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50661] Traceback (most recent call last):\r
+[Thu Sep 19 13:41:05.163748 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50661]   File "C:\\Python312\\Lib\\site-packages\\django\\core\\handlers\\exception.py", line 55, in inner\r
+[Thu Sep 19 13:41:05.163748 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50661]     response = get_response(request)\r
+[Thu Sep 19 13:41:05.163748 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50661]                ^^^^^^^^^^^^^^^^^^^^^\r
+[Thu Sep 19 13:41:05.163748 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50661]   File "C:\\Python312\\Lib\\site-packages\\django\\utils\\deprecation.py", line 133, in __call__\r
+[Thu Sep 19 13:41:05.163748 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50661]     response = self.process_request(request)\r
+[Thu Sep 19 13:41:05.163748 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50661]                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r
+[Thu Sep 19 13:41:05.163748 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50661]   File "C:\\Python312\\Lib\\site-packages\\django\\middleware\\common.py", line 48, in process_request\r
+[Thu Sep 19 13:41:05.163748 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50661]     host = request.get_host()\r
+[Thu Sep 19 13:41:05.163748 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50661]            ^^^^^^^^^^^^^^^^^^\r
+[Thu Sep 19 13:41:05.163748 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50661]   File "C:\\Python312\\Lib\\site-packages\\django\\http\\request.py", line 151, in get_host\r
+[Thu Sep 19 13:41:05.163748 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50661]     raise DisallowedHost(msg)\r
+[Thu Sep 19 13:41:05.163748 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50661] django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'localhost'. You may need to add 'localhost' to ALLOWED_HOSTS.\r
+[Thu Sep 19 13:41:05.180108 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50661] Bad Request: /back/\r
+[Thu Sep 19 13:41:05.338655 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50662] Invalid HTTP_HOST header: 'localhost'. You may need to add 'localhost' to ALLOWED_HOSTS.\r
+[Thu Sep 19 13:41:05.338655 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50662] Traceback (most recent call last):\r
+[Thu Sep 19 13:41:05.338655 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50662]   File "C:\\Python312\\Lib\\site-packages\\django\\core\\handlers\\exception.py", line 55, in inner\r
+[Thu Sep 19 13:41:05.338655 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50662]     response = get_response(request)\r
+[Thu Sep 19 13:41:05.338655 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50662]                ^^^^^^^^^^^^^^^^^^^^^\r
+[Thu Sep 19 13:41:05.338655 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50662]   File "C:\\Python312\\Lib\\site-packages\\django\\utils\\deprecation.py", line 133, in __call__\r
+[Thu Sep 19 13:41:05.338655 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50662]     response = self.process_request(request)\r
+[Thu Sep 19 13:41:05.338655 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50662]                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r
+[Thu Sep 19 13:41:05.338655 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50662]   File "C:\\Python312\\Lib\\site-packages\\django\\middleware\\common.py", line 48, in process_request\r
+[Thu Sep 19 13:41:05.338655 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50662]     host = request.get_host()\r
+[Thu Sep 19 13:41:05.338655 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50662]            ^^^^^^^^^^^^^^^^^^\r
+[Thu Sep 19 13:41:05.338655 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50662]   File "C:\\Python312\\Lib\\site-packages\\django\\http\\request.py", line 151, in get_host\r
+[Thu Sep 19 13:41:05.338655 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50662]     raise DisallowedHost(msg)\r
+[Thu Sep 19 13:41:05.338655 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50662] django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'localhost'. You may need to add 'localhost' to ALLOWED_HOSTS.\r
+[Thu Sep 19 13:41:05.354605 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50662] Bad Request: /back/\r
+[Thu Sep 19 13:41:05.521874 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50663] Invalid HTTP_HOST header: 'localhost'. You may need to add 'localhost' to ALLOWED_HOSTS.\r
+[Thu Sep 19 13:41:05.522875 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50663] Traceback (most recent call last):\r
+[Thu Sep 19 13:41:05.522875 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50663]   File "C:\\Python312\\Lib\\site-packages\\django\\core\\handlers\\exception.py", line 55, in inner\r
+[Thu Sep 19 13:41:05.522875 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50663]     response = get_response(request)\r
+[Thu Sep 19 13:41:05.522875 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50663]                ^^^^^^^^^^^^^^^^^^^^^\r
+[Thu Sep 19 13:41:05.522875 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50663]   File "C:\\Python312\\Lib\\site-packages\\django\\utils\\deprecation.py", line 133, in __call__\r
+[Thu Sep 19 13:41:05.522875 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50663]     response = self.process_request(request)\r
+[Thu Sep 19 13:41:05.522875 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50663]                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r
+[Thu Sep 19 13:41:05.522875 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50663]   File "C:\\Python312\\Lib\\site-packages\\django\\middleware\\common.py", line 48, in process_request\r
+[Thu Sep 19 13:41:05.522875 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50663]     host = request.get_host()\r
+[Thu Sep 19 13:41:05.522875 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50663]            ^^^^^^^^^^^^^^^^^^\r
+[Thu Sep 19 13:41:05.522875 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50663]   File "C:\\Python312\\Lib\\site-packages\\django\\http\\request.py", line 151, in get_host\r
+[Thu Sep 19 13:41:05.522875 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50663]     raise DisallowedHost(msg)\r
+[Thu Sep 19 13:41:05.522875 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50663] django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'localhost'. You may need to add 'localhost' to ALLOWED_HOSTS.\r
+[Thu Sep 19 13:41:05.538747 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50663] Bad Request: /back/\r
+[Thu Sep 19 13:41:05.714846 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50664] Invalid HTTP_HOST header: 'localhost'. You may need to add 'localhost' to ALLOWED_HOSTS.\r
+[Thu Sep 19 13:41:05.714846 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50664] Traceback (most recent call last):\r
+[Thu Sep 19 13:41:05.714846 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50664]   File "C:\\Python312\\Lib\\site-packages\\django\\core\\handlers\\exception.py", line 55, in inner\r
+[Thu Sep 19 13:41:05.714846 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50664]     response = get_response(request)\r
+[Thu Sep 19 13:41:05.714846 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50664]                ^^^^^^^^^^^^^^^^^^^^^\r
+[Thu Sep 19 13:41:05.714846 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50664]   File "C:\\Python312\\Lib\\site-packages\\django\\utils\\deprecation.py", line 133, in __call__\r
+[Thu Sep 19 13:41:05.714846 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50664]     response = self.process_request(request)\r
+[Thu Sep 19 13:41:05.714846 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50664]                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r
+[Thu Sep 19 13:41:05.714846 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50664]   File "C:\\Python312\\Lib\\site-packages\\django\\middleware\\common.py", line 48, in process_request\r
+[Thu Sep 19 13:41:05.714846 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50664]     host = request.get_host()\r
+[Thu Sep 19 13:41:05.715849 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50664]            ^^^^^^^^^^^^^^^^^^\r
+[Thu Sep 19 13:41:05.715849 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50664]   File "C:\\Python312\\Lib\\site-packages\\django\\http\\request.py", line 151, in get_host\r
+[Thu Sep 19 13:41:05.715849 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50664]     raise DisallowedHost(msg)\r
+[Thu Sep 19 13:41:05.715849 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50664] django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'localhost'. You may need to add 'localhost' to ALLOWED_HOSTS.\r
+[Thu Sep 19 13:41:05.731389 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50664] Bad Request: /back/\r
+[Thu Sep 19 13:41:05.922506 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50665] Invalid HTTP_HOST header: 'localhost'. You may need to add 'localhost' to ALLOWED_HOSTS.\r
+[Thu Sep 19 13:41:05.922506 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50665] Traceback (most recent call last):\r
+[Thu Sep 19 13:41:05.922506 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50665]   File "C:\\Python312\\Lib\\site-packages\\django\\core\\handlers\\exception.py", line 55, in inner\r
+[Thu Sep 19 13:41:05.922506 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50665]     response = get_response(request)\r
+[Thu Sep 19 13:41:05.922506 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50665]                ^^^^^^^^^^^^^^^^^^^^^\r
+[Thu Sep 19 13:41:05.922506 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50665]   File "C:\\Python312\\Lib\\site-packages\\django\\utils\\deprecation.py", line 133, in __call__\r
+[Thu Sep 19 13:41:05.922506 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50665]     response = self.process_request(request)\r
+[Thu Sep 19 13:41:05.922506 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50665]                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r
+[Thu Sep 19 13:41:05.922506 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50665]   File "C:\\Python312\\Lib\\site-packages\\django\\middleware\\common.py", line 48, in process_request\r
+[Thu Sep 19 13:41:05.922506 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50665]     host = request.get_host()\r
+[Thu Sep 19 13:41:05.922506 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50665]            ^^^^^^^^^^^^^^^^^^\r
+[Thu Sep 19 13:41:05.922506 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50665]   File "C:\\Python312\\Lib\\site-packages\\django\\http\\request.py", line 151, in get_host\r
+[Thu Sep 19 13:41:05.922506 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50665]     raise DisallowedHost(msg)\r
+[Thu Sep 19 13:41:05.922506 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50665] django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'localhost'. You may need to add 'localhost' to ALLOWED_HOSTS.\r
+[Thu Sep 19 13:41:05.939090 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50665] Bad Request: /back/\r
+[Thu Sep 19 13:41:06.122600 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50666] Invalid HTTP_HOST header: 'localhost'. You may need to add 'localhost' to ALLOWED_HOSTS.\r
+[Thu Sep 19 13:41:06.122600 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50666] Traceback (most recent call last):\r
+[Thu Sep 19 13:41:06.122600 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50666]   File "C:\\Python312\\Lib\\site-packages\\django\\core\\handlers\\exception.py", line 55, in inner\r
+[Thu Sep 19 13:41:06.122600 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50666]     response = get_response(request)\r
+[Thu Sep 19 13:41:06.122600 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50666]                ^^^^^^^^^^^^^^^^^^^^^\r
+[Thu Sep 19 13:41:06.122600 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50666]   File "C:\\Python312\\Lib\\site-packages\\django\\utils\\deprecation.py", line 133, in __call__\r
+[Thu Sep 19 13:41:06.122600 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50666]     response = self.process_request(request)\r
+[Thu Sep 19 13:41:06.122600 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50666]                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r
+[Thu Sep 19 13:41:06.122600 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50666]   File "C:\\Python312\\Lib\\site-packages\\django\\middleware\\common.py", line 48, in process_request\r
+[Thu Sep 19 13:41:06.122600 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50666]     host = request.get_host()\r
+[Thu Sep 19 13:41:06.122600 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50666]            ^^^^^^^^^^^^^^^^^^\r
+[Thu Sep 19 13:41:06.122600 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50666]   File "C:\\Python312\\Lib\\site-packages\\django\\http\\request.py", line 151, in get_host\r
+[Thu Sep 19 13:41:06.122600 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50666]     raise DisallowedHost(msg)\r
+[Thu Sep 19 13:41:06.122600 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50666] django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'localhost'. You may need to add 'localhost' to ALLOWED_HOSTS.\r
+[Thu Sep 19 13:41:06.138603 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50666] Bad Request: /back/\r
+[Thu Sep 19 13:41:06.321572 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50667] Invalid HTTP_HOST header: 'localhost'. You may need to add 'localhost' to ALLOWED_HOSTS.\r
+[Thu Sep 19 13:41:06.322601 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50667] Traceback (most recent call last):\r
+[Thu Sep 19 13:41:06.322601 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50667]   File "C:\\Python312\\Lib\\site-packages\\django\\core\\handlers\\exception.py", line 55, in inner\r
+[Thu Sep 19 13:41:06.322601 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50667]     response = get_response(request)\r
+[Thu Sep 19 13:41:06.322601 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50667]                ^^^^^^^^^^^^^^^^^^^^^\r
+[Thu Sep 19 13:41:06.322601 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50667]   File "C:\\Python312\\Lib\\site-packages\\django\\utils\\deprecation.py", line 133, in __call__\r
+[Thu Sep 19 13:41:06.322601 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50667]     response = self.process_request(request)\r
+[Thu Sep 19 13:41:06.322601 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50667]                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r
+[Thu Sep 19 13:41:06.322601 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50667]   File "C:\\Python312\\Lib\\site-packages\\django\\middleware\\common.py", line 48, in process_request\r
+[Thu Sep 19 13:41:06.322601 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50667]     host = request.get_host()\r
+[Thu Sep 19 13:41:06.322601 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50667]            ^^^^^^^^^^^^^^^^^^\r
+[Thu Sep 19 13:41:06.322601 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50667]   File "C:\\Python312\\Lib\\site-packages\\django\\http\\request.py", line 151, in get_host\r
+[Thu Sep 19 13:41:06.322601 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50667]     raise DisallowedHost(msg)\r
+[Thu Sep 19 13:41:06.322601 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50667] django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'localhost'. You may need to add 'localhost' to ALLOWED_HOSTS.\r
+[Thu Sep 19 13:41:06.339736 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50667] Bad Request: /back/\r
+[Thu Sep 19 13:41:06.506523 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50668] Invalid HTTP_HOST header: 'localhost'. You may need to add 'localhost' to ALLOWED_HOSTS.\r
+[Thu Sep 19 13:41:06.506523 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50668] Traceback (most recent call last):\r
+[Thu Sep 19 13:41:06.506523 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50668]   File "C:\\Python312\\Lib\\site-packages\\django\\core\\handlers\\exception.py", line 55, in inner\r
+[Thu Sep 19 13:41:06.506523 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50668]     response = get_response(request)\r
+[Thu Sep 19 13:41:06.506523 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50668]                ^^^^^^^^^^^^^^^^^^^^^\r
+[Thu Sep 19 13:41:06.506523 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50668]   File "C:\\Python312\\Lib\\site-packages\\django\\utils\\deprecation.py", line 133, in __call__\r
+[Thu Sep 19 13:41:06.506523 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50668]     response = self.process_request(request)\r
+[Thu Sep 19 13:41:06.506523 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50668]                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r
+[Thu Sep 19 13:41:06.506523 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50668]   File "C:\\Python312\\Lib\\site-packages\\django\\middleware\\common.py", line 48, in process_request\r
+[Thu Sep 19 13:41:06.506523 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50668]     host = request.get_host()\r
+[Thu Sep 19 13:41:06.506523 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50668]            ^^^^^^^^^^^^^^^^^^\r
+[Thu Sep 19 13:41:06.506523 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50668]   File "C:\\Python312\\Lib\\site-packages\\django\\http\\request.py", line 151, in get_host\r
+[Thu Sep 19 13:41:06.506523 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50668]     raise DisallowedHost(msg)\r
+[Thu Sep 19 13:41:06.506523 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50668] django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'localhost'. You may need to add 'localhost' to ALLOWED_HOSTS.\r
+[Thu Sep 19 13:41:06.522526 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50668] Bad Request: /back/\r
+[Thu Sep 19 13:41:06.705597 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50669] Invalid HTTP_HOST header: 'localhost'. You may need to add 'localhost' to ALLOWED_HOSTS.\r
+[Thu Sep 19 13:41:06.705597 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50669] Traceback (most recent call last):\r
+[Thu Sep 19 13:41:06.705597 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50669]   File "C:\\Python312\\Lib\\site-packages\\django\\core\\handlers\\exception.py", line 55, in inner\r
+[Thu Sep 19 13:41:06.705597 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50669]     response = get_response(request)\r
+[Thu Sep 19 13:41:06.705597 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50669]                ^^^^^^^^^^^^^^^^^^^^^\r
+[Thu Sep 19 13:41:06.705597 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50669]   File "C:\\Python312\\Lib\\site-packages\\django\\utils\\deprecation.py", line 133, in __call__\r
+[Thu Sep 19 13:41:06.705597 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50669]     response = self.process_request(request)\r
+[Thu Sep 19 13:41:06.706600 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50669]                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r
+[Thu Sep 19 13:41:06.706600 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50669]   File "C:\\Python312\\Lib\\site-packages\\django\\middleware\\common.py", line 48, in process_request\r
+[Thu Sep 19 13:41:06.706600 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50669]     host = request.get_host()\r
+[Thu Sep 19 13:41:06.706600 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50669]            ^^^^^^^^^^^^^^^^^^\r
+[Thu Sep 19 13:41:06.706600 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50669]   File "C:\\Python312\\Lib\\site-packages\\django\\http\\request.py", line 151, in get_host\r
+[Thu Sep 19 13:41:06.706600 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50669]     raise DisallowedHost(msg)\r
+[Thu Sep 19 13:41:06.706600 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50669] django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'localhost'. You may need to add 'localhost' to ALLOWED_HOSTS.\r
+[Thu Sep 19 13:41:06.722582 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50669] Bad Request: /back/\r
+[Thu Sep 19 13:41:06.905960 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50670] Invalid HTTP_HOST header: 'localhost'. You may need to add 'localhost' to ALLOWED_HOSTS.\r
+[Thu Sep 19 13:41:06.905960 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50670] Traceback (most recent call last):\r
+[Thu Sep 19 13:41:06.905960 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50670]   File "C:\\Python312\\Lib\\site-packages\\django\\core\\handlers\\exception.py", line 55, in inner\r
+[Thu Sep 19 13:41:06.905960 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50670]     response = get_response(request)\r
+[Thu Sep 19 13:41:06.905960 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50670]                ^^^^^^^^^^^^^^^^^^^^^\r
+[Thu Sep 19 13:41:06.905960 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50670]   File "C:\\Python312\\Lib\\site-packages\\django\\utils\\deprecation.py", line 133, in __call__\r
+[Thu Sep 19 13:41:06.905960 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50670]     response = self.process_request(request)\r
+[Thu Sep 19 13:41:06.905960 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50670]                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r
+[Thu Sep 19 13:41:06.905960 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50670]   File "C:\\Python312\\Lib\\site-packages\\django\\middleware\\common.py", line 48, in process_request\r
+[Thu Sep 19 13:41:06.905960 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50670]     host = request.get_host()\r
+[Thu Sep 19 13:41:06.905960 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50670]            ^^^^^^^^^^^^^^^^^^\r
+[Thu Sep 19 13:41:06.905960 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50670]   File "C:\\Python312\\Lib\\site-packages\\django\\http\\request.py", line 151, in get_host\r
+[Thu Sep 19 13:41:06.905960 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50670]     raise DisallowedHost(msg)\r
+[Thu Sep 19 13:41:06.905960 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50670] django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'localhost'. You may need to add 'localhost' to ALLOWED_HOSTS.\r
+[Thu Sep 19 13:41:06.923238 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50670] Bad Request: /back/\r
+[Thu Sep 19 13:41:07.099636 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50671] Invalid HTTP_HOST header: 'localhost'. You may need to add 'localhost' to ALLOWED_HOSTS.\r
+[Thu Sep 19 13:41:07.099636 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50671] Traceback (most recent call last):\r
+[Thu Sep 19 13:41:07.099636 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50671]   File "C:\\Python312\\Lib\\site-packages\\django\\core\\handlers\\exception.py", line 55, in inner\r
+[Thu Sep 19 13:41:07.099636 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50671]     response = get_response(request)\r
+[Thu Sep 19 13:41:07.099636 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50671]                ^^^^^^^^^^^^^^^^^^^^^\r
+[Thu Sep 19 13:41:07.099636 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50671]   File "C:\\Python312\\Lib\\site-packages\\django\\utils\\deprecation.py", line 133, in __call__\r
+[Thu Sep 19 13:41:07.099636 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50671]     response = self.process_request(request)\r
+[Thu Sep 19 13:41:07.099636 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50671]                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r
+[Thu Sep 19 13:41:07.099636 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50671]   File "C:\\Python312\\Lib\\site-packages\\django\\middleware\\common.py", line 48, in process_request\r
+[Thu Sep 19 13:41:07.099636 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50671]     host = request.get_host()\r
+[Thu Sep 19 13:41:07.099636 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50671]            ^^^^^^^^^^^^^^^^^^\r
+[Thu Sep 19 13:41:07.099636 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50671]   File "C:\\Python312\\Lib\\site-packages\\django\\http\\request.py", line 151, in get_host\r
+[Thu Sep 19 13:41:07.099636 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50671]     raise DisallowedHost(msg)\r
+[Thu Sep 19 13:41:07.099636 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50671] django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'localhost'. You may need to add 'localhost' to ALLOWED_HOSTS.\r
+[Thu Sep 19 13:41:07.116930 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50671] Bad Request: /back/\r
+[Thu Sep 19 13:41:07.321832 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50672] Invalid HTTP_HOST header: 'localhost'. You may need to add 'localhost' to ALLOWED_HOSTS.\r
+[Thu Sep 19 13:41:07.321832 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50672] Traceback (most recent call last):\r
+[Thu Sep 19 13:41:07.321832 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50672]   File "C:\\Python312\\Lib\\site-packages\\django\\core\\handlers\\exception.py", line 55, in inner\r
+[Thu Sep 19 13:41:07.321832 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50672]     response = get_response(request)\r
+[Thu Sep 19 13:41:07.321832 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50672]                ^^^^^^^^^^^^^^^^^^^^^\r
+[Thu Sep 19 13:41:07.322831 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50672]   File "C:\\Python312\\Lib\\site-packages\\django\\utils\\deprecation.py", line 133, in __call__\r
+[Thu Sep 19 13:41:07.322831 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50672]     response = self.process_request(request)\r
+[Thu Sep 19 13:41:07.322831 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50672]                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r
+[Thu Sep 19 13:41:07.322831 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50672]   File "C:\\Python312\\Lib\\site-packages\\django\\middleware\\common.py", line 48, in process_request\r
+[Thu Sep 19 13:41:07.322831 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50672]     host = request.get_host()\r
+[Thu Sep 19 13:41:07.322831 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50672]            ^^^^^^^^^^^^^^^^^^\r
+[Thu Sep 19 13:41:07.322831 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50672]   File "C:\\Python312\\Lib\\site-packages\\django\\http\\request.py", line 151, in get_host\r
+[Thu Sep 19 13:41:07.322831 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50672]     raise DisallowedHost(msg)\r
+[Thu Sep 19 13:41:07.322831 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50672] django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'localhost'. You may need to add 'localhost' to ALLOWED_HOSTS.\r
+[Thu Sep 19 13:41:07.338940 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50672] Bad Request: /back/\r
+[Thu Sep 19 13:41:07.530693 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50673] Invalid HTTP_HOST header: 'localhost'. You may need to add 'localhost' to ALLOWED_HOSTS.\r
+[Thu Sep 19 13:41:07.530693 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50673] Traceback (most recent call last):\r
+[Thu Sep 19 13:41:07.530693 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50673]   File "C:\\Python312\\Lib\\site-packages\\django\\core\\handlers\\exception.py", line 55, in inner\r
+[Thu Sep 19 13:41:07.530693 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50673]     response = get_response(request)\r
+[Thu Sep 19 13:41:07.530693 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50673]                ^^^^^^^^^^^^^^^^^^^^^\r
+[Thu Sep 19 13:41:07.530693 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50673]   File "C:\\Python312\\Lib\\site-packages\\django\\utils\\deprecation.py", line 133, in __call__\r
+[Thu Sep 19 13:41:07.530693 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50673]     response = self.process_request(request)\r
+[Thu Sep 19 13:41:07.530693 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50673]                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r
+[Thu Sep 19 13:41:07.530693 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50673]   File "C:\\Python312\\Lib\\site-packages\\django\\middleware\\common.py", line 48, in process_request\r
+[Thu Sep 19 13:41:07.530693 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50673]     host = request.get_host()\r
+[Thu Sep 19 13:41:07.530693 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50673]            ^^^^^^^^^^^^^^^^^^\r
+[Thu Sep 19 13:41:07.530693 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50673]   File "C:\\Python312\\Lib\\site-packages\\django\\http\\request.py", line 151, in get_host\r
+[Thu Sep 19 13:41:07.530693 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50673]     raise DisallowedHost(msg)\r
+[Thu Sep 19 13:41:07.530693 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50673] django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'localhost'. You may need to add 'localhost' to ALLOWED_HOSTS.\r
+[Thu Sep 19 13:41:07.546300 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50673] Bad Request: /back/\r
+[Thu Sep 19 13:41:07.730748 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50674] Invalid HTTP_HOST header: 'localhost'. You may need to add 'localhost' to ALLOWED_HOSTS.\r
+[Thu Sep 19 13:41:07.730748 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50674] Traceback (most recent call last):\r
+[Thu Sep 19 13:41:07.730748 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50674]   File "C:\\Python312\\Lib\\site-packages\\django\\core\\handlers\\exception.py", line 55, in inner\r
+[Thu Sep 19 13:41:07.730748 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50674]     response = get_response(request)\r
+[Thu Sep 19 13:41:07.730748 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50674]                ^^^^^^^^^^^^^^^^^^^^^\r
+[Thu Sep 19 13:41:07.730748 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50674]   File "C:\\Python312\\Lib\\site-packages\\django\\utils\\deprecation.py", line 133, in __call__\r
+[Thu Sep 19 13:41:07.730748 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50674]     response = self.process_request(request)\r
+[Thu Sep 19 13:41:07.730748 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50674]                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r
+[Thu Sep 19 13:41:07.730748 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50674]   File "C:\\Python312\\Lib\\site-packages\\django\\middleware\\common.py", line 48, in process_request\r
+[Thu Sep 19 13:41:07.730748 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50674]     host = request.get_host()\r
+[Thu Sep 19 13:41:07.730748 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50674]            ^^^^^^^^^^^^^^^^^^\r
+[Thu Sep 19 13:41:07.730748 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50674]   File "C:\\Python312\\Lib\\site-packages\\django\\http\\request.py", line 151, in get_host\r
+[Thu Sep 19 13:41:07.730748 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50674]     raise DisallowedHost(msg)\r
+[Thu Sep 19 13:41:07.730748 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50674] django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'localhost'. You may need to add 'localhost' to ALLOWED_HOSTS.\r
+[Thu Sep 19 13:41:07.747282 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50674] Bad Request: /back/\r
+[Thu Sep 19 13:41:08.626843 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50675] Invalid HTTP_HOST header: 'localhost'. You may need to add 'localhost' to ALLOWED_HOSTS.\r
+[Thu Sep 19 13:41:08.626843 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50675] Traceback (most recent call last):\r
+[Thu Sep 19 13:41:08.626843 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50675]   File "C:\\Python312\\Lib\\site-packages\\django\\core\\handlers\\exception.py", line 55, in inner\r
+[Thu Sep 19 13:41:08.626843 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50675]     response = get_response(request)\r
+[Thu Sep 19 13:41:08.626843 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50675]                ^^^^^^^^^^^^^^^^^^^^^\r
+[Thu Sep 19 13:41:08.626843 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50675]   File "C:\\Python312\\Lib\\site-packages\\django\\utils\\deprecation.py", line 133, in __call__\r
+[Thu Sep 19 13:41:08.626843 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50675]     response = self.process_request(request)\r
+[Thu Sep 19 13:41:08.626843 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50675]                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r
+[Thu Sep 19 13:41:08.626843 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50675]   File "C:\\Python312\\Lib\\site-packages\\django\\middleware\\common.py", line 48, in process_request\r
+[Thu Sep 19 13:41:08.626843 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50675]     host = request.get_host()\r
+[Thu Sep 19 13:41:08.626843 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50675]            ^^^^^^^^^^^^^^^^^^\r
+[Thu Sep 19 13:41:08.626843 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50675]   File "C:\\Python312\\Lib\\site-packages\\django\\http\\request.py", line 151, in get_host\r
+[Thu Sep 19 13:41:08.626843 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50675]     raise DisallowedHost(msg)\r
+[Thu Sep 19 13:41:08.626843 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50675] django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'localhost'. You may need to add 'localhost' to ALLOWED_HOSTS.\r
+[Thu Sep 19 13:41:08.642398 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50675] Bad Request: /back/\r
+[Thu Sep 19 13:41:10.127226 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50676] Invalid HTTP_HOST header: 'localhost'. You may need to add 'localhost' to ALLOWED_HOSTS.\r
+[Thu Sep 19 13:41:10.127226 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50676] Traceback (most recent call last):\r
+[Thu Sep 19 13:41:10.127226 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50676]   File "C:\\Python312\\Lib\\site-packages\\django\\core\\handlers\\exception.py", line 55, in inner\r
+[Thu Sep 19 13:41:10.127226 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50676]     response = get_response(request)\r
+[Thu Sep 19 13:41:10.127226 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50676]                ^^^^^^^^^^^^^^^^^^^^^\r
+[Thu Sep 19 13:41:10.127226 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50676]   File "C:\\Python312\\Lib\\site-packages\\django\\utils\\deprecation.py", line 133, in __call__\r
+[Thu Sep 19 13:41:10.127226 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50676]     response = self.process_request(request)\r
+[Thu Sep 19 13:41:10.127226 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50676]                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r
+[Thu Sep 19 13:41:10.127226 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50676]   File "C:\\Python312\\Lib\\site-packages\\django\\middleware\\common.py", line 48, in process_request\r
+[Thu Sep 19 13:41:10.127226 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50676]     host = request.get_host()\r
+[Thu Sep 19 13:41:10.127226 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50676]            ^^^^^^^^^^^^^^^^^^\r
+[Thu Sep 19 13:41:10.127226 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50676]   File "C:\\Python312\\Lib\\site-packages\\django\\http\\request.py", line 151, in get_host\r
+[Thu Sep 19 13:41:10.127226 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50676]     raise DisallowedHost(msg)\r
+[Thu Sep 19 13:41:10.127226 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50676] django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'localhost'. You may need to add 'localhost' to ALLOWED_HOSTS.\r
+[Thu Sep 19 13:41:10.143142 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50676] Bad Request: /back/\r
+[Thu Sep 19 13:41:24.624766 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50678] Invalid HTTP_HOST header: 'localhost'. You may need to add 'localhost' to ALLOWED_HOSTS.\r
+[Thu Sep 19 13:41:24.624766 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50678] Traceback (most recent call last):\r
+[Thu Sep 19 13:41:24.624766 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50678]   File "C:\\Python312\\Lib\\site-packages\\django\\core\\handlers\\exception.py", line 55, in inner\r
+[Thu Sep 19 13:41:24.624766 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50678]     response = get_response(request)\r
+[Thu Sep 19 13:41:24.624766 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50678]                ^^^^^^^^^^^^^^^^^^^^^\r
+[Thu Sep 19 13:41:24.624766 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50678]   File "C:\\Python312\\Lib\\site-packages\\django\\utils\\deprecation.py", line 133, in __call__\r
+[Thu Sep 19 13:41:24.624766 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50678]     response = self.process_request(request)\r
+[Thu Sep 19 13:41:24.624766 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50678]                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r
+[Thu Sep 19 13:41:24.624766 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50678]   File "C:\\Python312\\Lib\\site-packages\\django\\middleware\\common.py", line 48, in process_request\r
+[Thu Sep 19 13:41:24.624766 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50678]     host = request.get_host()\r
+[Thu Sep 19 13:41:24.624766 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50678]            ^^^^^^^^^^^^^^^^^^\r
+[Thu Sep 19 13:41:24.624766 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50678]   File "C:\\Python312\\Lib\\site-packages\\django\\http\\request.py", line 151, in get_host\r
+[Thu Sep 19 13:41:24.624766 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50678]     raise DisallowedHost(msg)\r
+[Thu Sep 19 13:41:24.624766 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50678] django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'localhost'. You may need to add 'localhost' to ALLOWED_HOSTS.\r
+[Thu Sep 19 13:41:24.642242 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50678] Bad Request: /back/\r
+[Thu Sep 19 13:41:25.234672 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50679] Invalid HTTP_HOST header: 'localhost'. You may need to add 'localhost' to ALLOWED_HOSTS.\r
+[Thu Sep 19 13:41:25.234672 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50679] Traceback (most recent call last):\r
+[Thu Sep 19 13:41:25.234672 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50679]   File "C:\\Python312\\Lib\\site-packages\\django\\core\\handlers\\exception.py", line 55, in inner\r
+[Thu Sep 19 13:41:25.234672 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50679]     response = get_response(request)\r
+[Thu Sep 19 13:41:25.234672 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50679]                ^^^^^^^^^^^^^^^^^^^^^\r
+[Thu Sep 19 13:41:25.234672 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50679]   File "C:\\Python312\\Lib\\site-packages\\django\\utils\\deprecation.py", line 133, in __call__\r
+[Thu Sep 19 13:41:25.234672 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50679]     response = self.process_request(request)\r
+[Thu Sep 19 13:41:25.234672 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50679]                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r
+[Thu Sep 19 13:41:25.234672 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50679]   File "C:\\Python312\\Lib\\site-packages\\django\\middleware\\common.py", line 48, in process_request\r
+[Thu Sep 19 13:41:25.234672 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50679]     host = request.get_host()\r
+[Thu Sep 19 13:41:25.234672 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50679]            ^^^^^^^^^^^^^^^^^^\r
+[Thu Sep 19 13:41:25.234672 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50679]   File "C:\\Python312\\Lib\\site-packages\\django\\http\\request.py", line 151, in get_host\r
+[Thu Sep 19 13:41:25.234672 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50679]     raise DisallowedHost(msg)\r
+[Thu Sep 19 13:41:25.234672 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50679] django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'localhost'. You may need to add 'localhost' to ALLOWED_HOSTS.\r
+[Thu Sep 19 13:41:25.252571 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50679] Bad Request: /back/\r
+[Thu Sep 19 13:41:25.426516 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50680] Invalid HTTP_HOST header: 'localhost'. You may need to add 'localhost' to ALLOWED_HOSTS.\r
+[Thu Sep 19 13:41:25.426516 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50680] Traceback (most recent call last):\r
+[Thu Sep 19 13:41:25.426516 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50680]   File "C:\\Python312\\Lib\\site-packages\\django\\core\\handlers\\exception.py", line 55, in inner\r
+[Thu Sep 19 13:41:25.426516 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50680]     response = get_response(request)\r
+[Thu Sep 19 13:41:25.426516 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50680]                ^^^^^^^^^^^^^^^^^^^^^\r
+[Thu Sep 19 13:41:25.426516 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50680]   File "C:\\Python312\\Lib\\site-packages\\django\\utils\\deprecation.py", line 133, in __call__\r
+[Thu Sep 19 13:41:25.426516 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50680]     response = self.process_request(request)\r
+[Thu Sep 19 13:41:25.426516 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50680]                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r
+[Thu Sep 19 13:41:25.426516 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50680]   File "C:\\Python312\\Lib\\site-packages\\django\\middleware\\common.py", line 48, in process_request\r
+[Thu Sep 19 13:41:25.426516 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50680]     host = request.get_host()\r
+[Thu Sep 19 13:41:25.426516 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50680]            ^^^^^^^^^^^^^^^^^^\r
+[Thu Sep 19 13:41:25.426516 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50680]   File "C:\\Python312\\Lib\\site-packages\\django\\http\\request.py", line 151, in get_host\r
+[Thu Sep 19 13:41:25.426516 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50680]     raise DisallowedHost(msg)\r
+[Thu Sep 19 13:41:25.426516 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50680] django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'localhost'. You may need to add 'localhost' to ALLOWED_HOSTS.\r
+[Thu Sep 19 13:41:25.442009 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50680] Bad Request: /back/\r
+[Thu Sep 19 13:41:25.610083 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50681] Invalid HTTP_HOST header: 'localhost'. You may need to add 'localhost' to ALLOWED_HOSTS.\r
+[Thu Sep 19 13:41:25.610083 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50681] Traceback (most recent call last):\r
+[Thu Sep 19 13:41:25.610083 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50681]   File "C:\\Python312\\Lib\\site-packages\\django\\core\\handlers\\exception.py", line 55, in inner\r
+[Thu Sep 19 13:41:25.610083 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50681]     response = get_response(request)\r
+[Thu Sep 19 13:41:25.610083 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50681]                ^^^^^^^^^^^^^^^^^^^^^\r
+[Thu Sep 19 13:41:25.610083 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50681]   File "C:\\Python312\\Lib\\site-packages\\django\\utils\\deprecation.py", line 133, in __call__\r
+[Thu Sep 19 13:41:25.610083 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50681]     response = self.process_request(request)\r
+[Thu Sep 19 13:41:25.610083 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50681]                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r
+[Thu Sep 19 13:41:25.610083 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50681]   File "C:\\Python312\\Lib\\site-packages\\django\\middleware\\common.py", line 48, in process_request\r
+[Thu Sep 19 13:41:25.610083 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50681]     host = request.get_host()\r
+[Thu Sep 19 13:41:25.610083 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50681]            ^^^^^^^^^^^^^^^^^^\r
+[Thu Sep 19 13:41:25.610083 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50681]   File "C:\\Python312\\Lib\\site-packages\\django\\http\\request.py", line 151, in get_host\r
+[Thu Sep 19 13:41:25.610083 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50681]     raise DisallowedHost(msg)\r
+[Thu Sep 19 13:41:25.610083 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50681] django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'localhost'. You may need to add 'localhost' to ALLOWED_HOSTS.\r
+[Thu Sep 19 13:41:25.626759 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50681] Bad Request: /back/\r
+[Thu Sep 19 13:41:25.793815 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50682] Invalid HTTP_HOST header: 'localhost'. You may need to add 'localhost' to ALLOWED_HOSTS.\r
+[Thu Sep 19 13:41:25.793815 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50682] Traceback (most recent call last):\r
+[Thu Sep 19 13:41:25.793815 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50682]   File "C:\\Python312\\Lib\\site-packages\\django\\core\\handlers\\exception.py", line 55, in inner\r
+[Thu Sep 19 13:41:25.793815 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50682]     response = get_response(request)\r
+[Thu Sep 19 13:41:25.793815 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50682]                ^^^^^^^^^^^^^^^^^^^^^\r
+[Thu Sep 19 13:41:25.793815 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50682]   File "C:\\Python312\\Lib\\site-packages\\django\\utils\\deprecation.py", line 133, in __call__\r
+[Thu Sep 19 13:41:25.794813 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50682]     response = self.process_request(request)\r
+[Thu Sep 19 13:41:25.794813 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50682]                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r
+[Thu Sep 19 13:41:25.794813 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50682]   File "C:\\Python312\\Lib\\site-packages\\django\\middleware\\common.py", line 48, in process_request\r
+[Thu Sep 19 13:41:25.794813 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50682]     host = request.get_host()\r
+[Thu Sep 19 13:41:25.794813 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50682]            ^^^^^^^^^^^^^^^^^^\r
+[Thu Sep 19 13:41:25.794813 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50682]   File "C:\\Python312\\Lib\\site-packages\\django\\http\\request.py", line 151, in get_host\r
+[Thu Sep 19 13:41:25.794813 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50682]     raise DisallowedHost(msg)\r
+[Thu Sep 19 13:41:25.794813 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50682] django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'localhost'. You may need to add 'localhost' to ALLOWED_HOSTS.\r
+[Thu Sep 19 13:41:25.810330 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50682] Bad Request: /back/\r
+[Thu Sep 19 13:41:25.978719 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50683] Invalid HTTP_HOST header: 'localhost'. You may need to add 'localhost' to ALLOWED_HOSTS.\r
+[Thu Sep 19 13:41:25.978719 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50683] Traceback (most recent call last):\r
+[Thu Sep 19 13:41:25.978719 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50683]   File "C:\\Python312\\Lib\\site-packages\\django\\core\\handlers\\exception.py", line 55, in inner\r
+[Thu Sep 19 13:41:25.978719 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50683]     response = get_response(request)\r
+[Thu Sep 19 13:41:25.978719 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50683]                ^^^^^^^^^^^^^^^^^^^^^\r
+[Thu Sep 19 13:41:25.978719 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50683]   File "C:\\Python312\\Lib\\site-packages\\django\\utils\\deprecation.py", line 133, in __call__\r
+[Thu Sep 19 13:41:25.978719 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50683]     response = self.process_request(request)\r
+[Thu Sep 19 13:41:25.978719 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50683]                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r
+[Thu Sep 19 13:41:25.978719 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50683]   File "C:\\Python312\\Lib\\site-packages\\django\\middleware\\common.py", line 48, in process_request\r
+[Thu Sep 19 13:41:25.978719 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50683]     host = request.get_host()\r
+[Thu Sep 19 13:41:25.978719 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50683]            ^^^^^^^^^^^^^^^^^^\r
+[Thu Sep 19 13:41:25.978719 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50683]   File "C:\\Python312\\Lib\\site-packages\\django\\http\\request.py", line 151, in get_host\r
+[Thu Sep 19 13:41:25.978719 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50683]     raise DisallowedHost(msg)\r
+[Thu Sep 19 13:41:25.978719 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50683] django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'localhost'. You may need to add 'localhost' to ALLOWED_HOSTS.\r
+[Thu Sep 19 13:41:25.995387 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50683] Bad Request: /back/\r
+[Thu Sep 19 13:41:26.145749 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50684] Invalid HTTP_HOST header: 'localhost'. You may need to add 'localhost' to ALLOWED_HOSTS.\r
+[Thu Sep 19 13:41:26.146746 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50684] Traceback (most recent call last):\r
+[Thu Sep 19 13:41:26.146746 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50684]   File "C:\\Python312\\Lib\\site-packages\\django\\core\\handlers\\exception.py", line 55, in inner\r
+[Thu Sep 19 13:41:26.146746 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50684]     response = get_response(request)\r
+[Thu Sep 19 13:41:26.146746 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50684]                ^^^^^^^^^^^^^^^^^^^^^\r
+[Thu Sep 19 13:41:26.146746 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50684]   File "C:\\Python312\\Lib\\site-packages\\django\\utils\\deprecation.py", line 133, in __call__\r
+[Thu Sep 19 13:41:26.146746 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50684]     response = self.process_request(request)\r
+[Thu Sep 19 13:41:26.146746 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50684]                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r
+[Thu Sep 19 13:41:26.146746 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50684]   File "C:\\Python312\\Lib\\site-packages\\django\\middleware\\common.py", line 48, in process_request\r
+[Thu Sep 19 13:41:26.146746 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50684]     host = request.get_host()\r
+[Thu Sep 19 13:41:26.146746 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50684]            ^^^^^^^^^^^^^^^^^^\r
+[Thu Sep 19 13:41:26.146746 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50684]   File "C:\\Python312\\Lib\\site-packages\\django\\http\\request.py", line 151, in get_host\r
+[Thu Sep 19 13:41:26.146746 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50684]     raise DisallowedHost(msg)\r
+[Thu Sep 19 13:41:26.146746 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50684] django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'localhost'. You may need to add 'localhost' to ALLOWED_HOSTS.\r
+[Thu Sep 19 13:41:26.162317 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50684] Bad Request: /back/\r
+[Thu Sep 19 13:41:26.329831 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50685] Invalid HTTP_HOST header: 'localhost'. You may need to add 'localhost' to ALLOWED_HOSTS.\r
+[Thu Sep 19 13:41:26.329831 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50685] Traceback (most recent call last):\r
+[Thu Sep 19 13:41:26.329831 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50685]   File "C:\\Python312\\Lib\\site-packages\\django\\core\\handlers\\exception.py", line 55, in inner\r
+[Thu Sep 19 13:41:26.329831 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50685]     response = get_response(request)\r
+[Thu Sep 19 13:41:26.329831 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50685]                ^^^^^^^^^^^^^^^^^^^^^\r
+[Thu Sep 19 13:41:26.329831 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50685]   File "C:\\Python312\\Lib\\site-packages\\django\\utils\\deprecation.py", line 133, in __call__\r
+[Thu Sep 19 13:41:26.330828 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50685]     response = self.process_request(request)\r
+[Thu Sep 19 13:41:26.330828 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50685]                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r
+[Thu Sep 19 13:41:26.330828 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50685]   File "C:\\Python312\\Lib\\site-packages\\django\\middleware\\common.py", line 48, in process_request\r
+[Thu Sep 19 13:41:26.330828 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50685]     host = request.get_host()\r
+[Thu Sep 19 13:41:26.330828 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50685]            ^^^^^^^^^^^^^^^^^^\r
+[Thu Sep 19 13:41:26.330828 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50685]   File "C:\\Python312\\Lib\\site-packages\\django\\http\\request.py", line 151, in get_host\r
+[Thu Sep 19 13:41:26.330828 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50685]     raise DisallowedHost(msg)\r
+[Thu Sep 19 13:41:26.330828 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50685] django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'localhost'. You may need to add 'localhost' to ALLOWED_HOSTS.\r
+[Thu Sep 19 13:41:26.346341 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50685] Bad Request: /back/\r
+[Thu Sep 19 13:41:26.490707 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50686] Invalid HTTP_HOST header: 'localhost'. You may need to add 'localhost' to ALLOWED_HOSTS.\r
+[Thu Sep 19 13:41:26.490707 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50686] Traceback (most recent call last):\r
+[Thu Sep 19 13:41:26.490707 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50686]   File "C:\\Python312\\Lib\\site-packages\\django\\core\\handlers\\exception.py", line 55, in inner\r
+[Thu Sep 19 13:41:26.490707 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50686]     response = get_response(request)\r
+[Thu Sep 19 13:41:26.490707 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50686]                ^^^^^^^^^^^^^^^^^^^^^\r
+[Thu Sep 19 13:41:26.490707 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50686]   File "C:\\Python312\\Lib\\site-packages\\django\\utils\\deprecation.py", line 133, in __call__\r
+[Thu Sep 19 13:41:26.490707 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50686]     response = self.process_request(request)\r
+[Thu Sep 19 13:41:26.490707 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50686]                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r
+[Thu Sep 19 13:41:26.490707 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50686]   File "C:\\Python312\\Lib\\site-packages\\django\\middleware\\common.py", line 48, in process_request\r
+[Thu Sep 19 13:41:26.490707 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50686]     host = request.get_host()\r
+[Thu Sep 19 13:41:26.490707 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50686]            ^^^^^^^^^^^^^^^^^^\r
+[Thu Sep 19 13:41:26.490707 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50686]   File "C:\\Python312\\Lib\\site-packages\\django\\http\\request.py", line 151, in get_host\r
+[Thu Sep 19 13:41:26.490707 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50686]     raise DisallowedHost(msg)\r
+[Thu Sep 19 13:41:26.490707 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50686] django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'localhost'. You may need to add 'localhost' to ALLOWED_HOSTS.\r
+[Thu Sep 19 13:41:26.506985 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50686] Bad Request: /back/\r
+[Thu Sep 19 13:41:26.674747 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50687] Invalid HTTP_HOST header: 'localhost'. You may need to add 'localhost' to ALLOWED_HOSTS.\r
+[Thu Sep 19 13:41:26.674747 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50687] Traceback (most recent call last):\r
+[Thu Sep 19 13:41:26.674747 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50687]   File "C:\\Python312\\Lib\\site-packages\\django\\core\\handlers\\exception.py", line 55, in inner\r
+[Thu Sep 19 13:41:26.674747 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50687]     response = get_response(request)\r
+[Thu Sep 19 13:41:26.674747 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50687]                ^^^^^^^^^^^^^^^^^^^^^\r
+[Thu Sep 19 13:41:26.674747 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50687]   File "C:\\Python312\\Lib\\site-packages\\django\\utils\\deprecation.py", line 133, in __call__\r
+[Thu Sep 19 13:41:26.674747 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50687]     response = self.process_request(request)\r
+[Thu Sep 19 13:41:26.674747 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50687]                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r
+[Thu Sep 19 13:41:26.674747 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50687]   File "C:\\Python312\\Lib\\site-packages\\django\\middleware\\common.py", line 48, in process_request\r
+[Thu Sep 19 13:41:26.674747 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50687]     host = request.get_host()\r
+[Thu Sep 19 13:41:26.674747 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50687]            ^^^^^^^^^^^^^^^^^^\r
+[Thu Sep 19 13:41:26.674747 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50687]   File "C:\\Python312\\Lib\\site-packages\\django\\http\\request.py", line 151, in get_host\r
+[Thu Sep 19 13:41:26.674747 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50687]     raise DisallowedHost(msg)\r
+[Thu Sep 19 13:41:26.674747 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50687] django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'localhost'. You may need to add 'localhost' to ALLOWED_HOSTS.\r
+[Thu Sep 19 13:41:26.689715 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50687] Bad Request: /back/\r
+[Thu Sep 19 13:41:26.842577 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50688] Invalid HTTP_HOST header: 'localhost'. You may need to add 'localhost' to ALLOWED_HOSTS.\r
+[Thu Sep 19 13:41:26.842577 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50688] Traceback (most recent call last):\r
+[Thu Sep 19 13:41:26.842577 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50688]   File "C:\\Python312\\Lib\\site-packages\\django\\core\\handlers\\exception.py", line 55, in inner\r
+[Thu Sep 19 13:41:26.842577 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50688]     response = get_response(request)\r
+[Thu Sep 19 13:41:26.842577 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50688]                ^^^^^^^^^^^^^^^^^^^^^\r
+[Thu Sep 19 13:41:26.842577 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50688]   File "C:\\Python312\\Lib\\site-packages\\django\\utils\\deprecation.py", line 133, in __call__\r
+[Thu Sep 19 13:41:26.842577 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50688]     response = self.process_request(request)\r
+[Thu Sep 19 13:41:26.842577 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50688]                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r
+[Thu Sep 19 13:41:26.842577 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50688]   File "C:\\Python312\\Lib\\site-packages\\django\\middleware\\common.py", line 48, in process_request\r
+[Thu Sep 19 13:41:26.842577 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50688]     host = request.get_host()\r
+[Thu Sep 19 13:41:26.842577 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50688]            ^^^^^^^^^^^^^^^^^^\r
+[Thu Sep 19 13:41:26.842577 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50688]   File "C:\\Python312\\Lib\\site-packages\\django\\http\\request.py", line 151, in get_host\r
+[Thu Sep 19 13:41:26.842577 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50688]     raise DisallowedHost(msg)\r
+[Thu Sep 19 13:41:26.842577 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50688] django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'localhost'. You may need to add 'localhost' to ALLOWED_HOSTS.\r
+[Thu Sep 19 13:41:26.859068 2024] [wsgi:error] [pid 3692:tid 1300] [client ::1:50688] Bad Request: /back/\r
+[Thu Sep 19 13:41:59.962328 2024] [wsgi:error] [pid 6024:tid 1296] [client ::1:50690] Not Found: /back/\r
+[Thu Sep 19 13:42:01.181994 2024] [wsgi:error] [pid 6024:tid 1296] [client ::1:50690] Not Found: /back/\r
+[Thu Sep 19 13:42:01.662077 2024] [wsgi:error] [pid 6024:tid 1296] [client ::1:50690] Not Found: /back/\r
+[Thu Sep 19 13:42:02.061823 2024] [wsgi:error] [pid 6024:tid 1296] [client ::1:50690] Not Found: /back/\r
+[Thu Sep 19 13:42:02.468883 2024] [wsgi:error] [pid 6024:tid 1296] [client ::1:50690] Not Found: /back/\r
+[Thu Sep 19 13:42:02.758104 2024] [wsgi:error] [pid 6024:tid 1296] [client ::1:50690] Not Found: /back/\r
+[Thu Sep 19 13:42:02.964987 2024] [wsgi:error] [pid 6024:tid 1296] [client ::1:50690] Not Found: /back/\r
+[Thu Sep 19 13:42:03.174074 2024] [wsgi:error] [pid 6024:tid 1296] [client ::1:50690] Not Found: /back/\r
+[Thu Sep 19 13:42:03.364793 2024] [wsgi:error] [pid 6024:tid 1296] [client ::1:50690] Not Found: /back/\r
+[Thu Sep 19 13:42:03.549034 2024] [wsgi:error] [pid 6024:tid 1296] [client ::1:50690] Not Found: /back/\r
+[Thu Sep 19 13:42:06.221731 2024] [wsgi:error] [pid 6024:tid 1296] [client ::1:50690] Not Found: /back/\r
+[Thu Sep 19 13:42:06.684895 2024] [wsgi:error] [pid 6024:tid 1296] [client ::1:50690] Not Found: /back/\r
+[Thu Sep 19 13:42:06.989045 2024] [wsgi:error] [pid 6024:tid 1296] [client ::1:50690] Not Found: /back/\r
+[Thu Sep 19 13:42:07.205108 2024] [wsgi:error] [pid 6024:tid 1296] [client ::1:50690] Not Found: /back/\r
+[Thu Sep 19 13:42:07.401039 2024] [wsgi:error] [pid 6024:tid 1296] [client ::1:50690] Not Found: /back/\r
+[Thu Sep 19 13:42:14.830423 2024] [wsgi:error] [pid 6024:tid 1296] [client ::1:50692] Not Found: /back/\r
+[Thu Sep 19 13:42:15.024764 2024] [wsgi:error] [pid 6024:tid 1296] [client ::1:50692] Not Found: /back/\r
+[Thu Sep 19 13:42:15.222026 2024] [wsgi:error] [pid 6024:tid 1296] [client ::1:50692] Not Found: /back/\r
+[Thu Sep 19 13:42:15.397230 2024] [wsgi:error] [pid 6024:tid 1296] [client ::1:50692] Not Found: /back/\r
+[Thu Sep 19 13:43:23.903455 2024] [wsgi:error] [pid 6024:tid 1296] [client 192.168.1.131:50694] Invalid HTTP_HOST header: '192.168.1.131'. You may need to add '192.168.1.131' to ALLOWED_HOSTS.\r
+[Thu Sep 19 13:43:23.903455 2024] [wsgi:error] [pid 6024:tid 1296] [client 192.168.1.131:50694] Traceback (most recent call last):\r
+[Thu Sep 19 13:43:23.903455 2024] [wsgi:error] [pid 6024:tid 1296] [client 192.168.1.131:50694]   File "C:\\Python312\\Lib\\site-packages\\django\\core\\handlers\\exception.py", line 55, in inner\r
+[Thu Sep 19 13:43:23.903455 2024] [wsgi:error] [pid 6024:tid 1296] [client 192.168.1.131:50694]     response = get_response(request)\r
+[Thu Sep 19 13:43:23.903455 2024] [wsgi:error] [pid 6024:tid 1296] [client 192.168.1.131:50694]                ^^^^^^^^^^^^^^^^^^^^^\r
+[Thu Sep 19 13:43:23.903455 2024] [wsgi:error] [pid 6024:tid 1296] [client 192.168.1.131:50694]   File "C:\\Python312\\Lib\\site-packages\\django\\utils\\deprecation.py", line 133, in __call__\r
+[Thu Sep 19 13:43:23.904488 2024] [wsgi:error] [pid 6024:tid 1296] [client 192.168.1.131:50694]     response = self.process_request(request)\r
+[Thu Sep 19 13:43:23.904488 2024] [wsgi:error] [pid 6024:tid 1296] [client 192.168.1.131:50694]                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r
+[Thu Sep 19 13:43:23.904488 2024] [wsgi:error] [pid 6024:tid 1296] [client 192.168.1.131:50694]   File "C:\\Python312\\Lib\\site-packages\\django\\middleware\\common.py", line 48, in process_request\r
+[Thu Sep 19 13:43:23.904488 2024] [wsgi:error] [pid 6024:tid 1296] [client 192.168.1.131:50694]     host = request.get_host()\r
+[Thu Sep 19 13:43:23.904488 2024] [wsgi:error] [pid 6024:tid 1296] [client 192.168.1.131:50694]            ^^^^^^^^^^^^^^^^^^\r
+[Thu Sep 19 13:43:23.904488 2024] [wsgi:error] [pid 6024:tid 1296] [client 192.168.1.131:50694]   File "C:\\Python312\\Lib\\site-packages\\django\\http\\request.py", line 151, in get_host\r
+[Thu Sep 19 13:43:23.904488 2024] [wsgi:error] [pid 6024:tid 1296] [client 192.168.1.131:50694]     raise DisallowedHost(msg)\r
+[Thu Sep 19 13:43:23.904488 2024] [wsgi:error] [pid 6024:tid 1296] [client 192.168.1.131:50694] django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '192.168.1.131'. You may need to add '192.168.1.131' to ALLOWED_HOSTS.\r
+[Thu Sep 19 13:43:23.929453 2024] [wsgi:error] [pid 6024:tid 1296] [client 192.168.1.131:50694] Bad Request: /back/\r

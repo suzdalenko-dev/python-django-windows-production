@@ -1,0 +1,132 @@
+<html></html>
+<head>
+<style>
+    @page {
+        size: a4 portrait;
+        @frame header_frame {         
+            -pdf-frame-content: header_content;
+            left: 11pt; width: 573pt; top: 11pt; height: 340pt;
+        }
+        @frame content_frame {
+            left: 11pt; width: 573pt; top: 110pt; height: 462pt;
+        }
+        @frame col1_frame {
+            -pdf-frame-content: col1_content;
+            left: 11pt; width: 285pt; top: 610pt; height: 332pt;
+        }
+        @frame col2_frame {          
+            -pdf-frame-content: col2_content;
+            right: 11pt; width: 285pt; top: 610pt; height: 330pt;
+        }
+    }
+    .div_vehicle{
+        background-color: #4e73df; color:white; margin-top: 11px; display: block;
+    }
+    .thead{
+        background-color: #4e73df; color:white;
+    }
+    *{
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        margin: 0; padding: 0;
+        font-size: 12px;
+    }
+    .h1class{
+        font-size: 17px; font-weight: 800;
+    }
+    td, tr{
+        margin-left: 4px; margin-right: 4px; padding-top: 3px;
+    }
+    footer {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        height: 50px; /* Altura del pie de página */
+        border-top: 1px solid black;
+    }
+    .datos_vehicle{
+        padding-top: 3px; display: block; padding-bottom: -3px;
+    }
+    .wrapper{
+        background-color: rgb(229, 159, 184);
+        width: 400pt;
+    }
+    .right_align{
+        text-align: right;
+    }
+</style>
+</head>
+
+<body>
+    <!-- Content for Static Frame 'header_frame' -->
+    <div id="header_content">
+        <div style="width: 100%;">
+            <table style="width: 100%; border: 1px solid rgb(233, 233, 255);">
+                <tbody>
+                    <tr>
+                        <td>
+                            <span class="h1class"> @name_factura@ </span><br>
+                            Numero: @numero_factura@<br>
+                            Fecha: @fecha_factura@<br>
+                            Vencimiento: @fecha_vencimiento@<br>
+                            F.Pago: <b>CONTADO</b><br>
+                            @apunta_a_factura@
+                        </td>
+                        <td>
+                            <b>Emisor</b><br>
+                            @razon@<br>
+                            @person_name@<br>
+                            @province@, @city@<br>
+                            @zipcode@ @address@<br>
+                            NIF: @cif@ TEL: @tlf@
+                        </td>
+                        <td>
+                            <b>Cliente</b><br>
+                            #@customer_num@ CIF: @cif_nif@ @razon_cl@<br>
+                            @person_name_cl@<br>
+                            @zipcode_cl@ @address_cl@ @country@<br>
+                            @province_cl@, @city_cl@<br>
+                            TEL: @phone@
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+   
+ 
+    <!-- HTML Content -->
+    <div id="content_frame">
+        @vehicle_data@
+        <div>
+            <table style="border: 1px solid rgb(233, 233, 255); color: black;">
+                <tbody>
+                    <tr><td>Codigo Art.</td> <td style="width: 333px;">Descripcion</td><td>Cantidad</td><td>Precio</td><td>Dto.</td><td>Importe</td></tr>
+                    @lines_content@
+                </tbody>
+            </table>
+        </div>
+   </div>
+
+   
+    <div id="col1_content">
+        <table style="border: 1px solid rgb(233, 233, 255);">
+            <tr><td colspan="2" style="background-color: #4e73df; color:white;">BASE IMPONIBLE</td><td style="background-color: #4e73df; color:white;">I.V.A</td><td colspan="2" style="background-color: #4e73df; color:white;">R.E</td>
+            <tr><td>Base    </td> <td>%       </td>  <td>Importe</td> <td>%</td>    <td>Importe</td></tr>
+            @html_ivas@
+        </table>
+        <br>
+        Observaciones: @observaciones@
+    </div>
+
+    <div id="col2_content">
+        <table style="border: 1px solid rgb(233, 233, 255);">
+            <tr><td colspan="3" style="background-color: #4e73df; color:white;">RESUMEN</td></tr>
+            <tr><td colspan="2">Suma Importes</td><td class="right_align">@suma_importes@</td></tr>
+            <tr><td colspan="2">I V A</td><td class="right_align">@importe_ivas@</td></tr>
+            <tr><td colspan="2">R.Equivalencia</td><td class="right_align">0.00</td></tr>
+            <tr><td colspan="2"><b>Total factura</b></td><td class="right_align"><b>@factura_total@</b></td></tr>
+            <tr><td colspan="3" style="height: 49px;">Firma Cliente</td></tr>
+        </table>
+    </div>
+</body>
+</html>
