@@ -692,3 +692,23 @@
 [Thu Sep 19 13:43:23.904488 2024] [wsgi:error] [pid 6024:tid 1296] [client 192.168.1.131:50694]     raise DisallowedHost(msg)\r
 [Thu Sep 19 13:43:23.904488 2024] [wsgi:error] [pid 6024:tid 1296] [client 192.168.1.131:50694] django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '192.168.1.131'. You may need to add '192.168.1.131' to ALLOWED_HOSTS.\r
 [Thu Sep 19 13:43:23.929453 2024] [wsgi:error] [pid 6024:tid 1296] [client 192.168.1.131:50694] Bad Request: /back/\r
+[Thu Sep 19 13:51:47.728571 2024] [wsgi:error] [pid 6188:tid 1300] [client ::1:50737] Not Found: /back/\r
+[Thu Sep 19 13:51:49.258978 2024] [wsgi:error] [pid 6188:tid 1300] [client ::1:50737] Not Found: /back/\r
+[Thu Sep 19 13:51:49.827043 2024] [wsgi:error] [pid 6188:tid 1300] [client ::1:50737] Not Found: /back/\r
+[Thu Sep 19 13:51:52.946252 2024] [wsgi:error] [pid 6188:tid 1300] [client ::1:50737] Not Found: /back/\r
+[Thu Sep 19 13:51:53.130208 2024] [wsgi:error] [pid 6188:tid 1300] [client ::1:50737] Not Found: /back/\r
+[Thu Sep 19 13:51:53.315103 2024] [wsgi:error] [pid 6188:tid 1300] [client ::1:50737] Not Found: /back/\r
+[Thu Sep 19 13:51:53.498102 2024] [wsgi:error] [pid 6188:tid 1300] [client ::1:50737] Not Found: /back/\r
+[Thu Sep 19 13:51:53.667921 2024] [wsgi:error] [pid 6188:tid 1300] [client ::1:50737] Not Found: /back/\r
+[Thu Sep 19 13:51:53.852766 2024] [wsgi:error] [pid 6188:tid 1300] [client ::1:50737] Not Found: /back/\r
+[Thu Sep 19 13:51:54.036564 2024] [wsgi:error] [pid 6188:tid 1300] [client ::1:50737] Not Found: /back/\r
+[Thu Sep 19 13:51:54.204008 2024] [wsgi:error] [pid 6188:tid 1300] [client ::1:50737] Not Found: /back/\r
+[Thu Sep 19 13:51:54.387932 2024] [wsgi:error] [pid 6188:tid 1300] [client ::1:50737] Not Found: /back/\r
+[Thu Sep 19 13:51:54.562293 2024] [wsgi:error] [pid 6188:tid 1300] [client ::1:50737] Not Found: /back/\r
+[Thu Sep 19 13:51:54.740558 2024] [wsgi:error] [pid 6188:tid 1300] [client ::1:50737] Not Found: /back/\r
+[Thu Sep 19 13:51:54.914125 2024] [wsgi:error] [pid 6188:tid 1300] [client ::1:50737] Not Found: /back/\r
+[Thu Sep 19 13:51:55.082126 2024] [wsgi:error] [pid 6188:tid 1300] [client ::1:50737] Not Found: /back/\r
+[Thu Sep 19 13:51:55.264114 2024] [wsgi:error] [pid 6188:tid 1300] [client ::1:50737] Not Found: /back/\r
+[Thu Sep 19 13:51:55.426897 2024] [wsgi:error] [pid 6188:tid 1300] [client ::1:50737] Not Found: /back/\r
+[Thu Sep 19 13:51:55.603146 2024] [wsgi:error] [pid 6188:tid 1300] [client ::1:50737] Not Found: /back/\r
+[Thu Sep 19 13:51:55.771163 2024] [wsgi:error] [pid 6188:tid 1300] [client ::1:50737] Not Found: /back/\r
